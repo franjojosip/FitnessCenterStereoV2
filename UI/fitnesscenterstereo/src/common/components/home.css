@@ -1,0 +1,12 @@
+div .row {
+    margin: 0px;
+    padding: 25px;
+    height: 100%;
+
+}
+
+
+.card {
+    width: 30rem;
+    margin: 50px;
+}

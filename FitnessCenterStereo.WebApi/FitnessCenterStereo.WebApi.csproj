@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <UserSecretsId>aspnet-FitnessCenterStereo.WebApi-09F7A854-4669-48F6-A310-2E8E395A6239</UserSecretsId>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.4" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.4.0" />
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\FitnessCenterStereo.Common\FitnessCenterStereo.Common.csproj" />
+    <ProjectReference Include="..\FitnessCenterStereo.DAL\FitnessCenterStereo.DAL.csproj" />
+    <ProjectReference Include="..\FitnessCenterStereo.Model.Common\FitnessCenterStereo.Model.Common.csproj" />
+    <ProjectReference Include="..\FitnessCenterStereo.Model\FitnessCenterStereo.Model.csproj" />
+    <ProjectReference Include="..\FitnessCenterStereo.Repository.Common\FitnessCenterStereo.Repository.Common.csproj" />
+    <ProjectReference Include="..\FitnessCenterStereo.Repository\FitnessCenterStereo.Repository.csproj" />
+    <ProjectReference Include="..\FitnessCenterStereo.Service.Common\FitnessCenterStereo.Service.Common.csproj" />
+    <ProjectReference Include="..\FitnessCenterStereo.Service\FitnessCenterStereo.Service.csproj" />
+  </ItemGroup>
+
+</Project>

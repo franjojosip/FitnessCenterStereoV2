@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FitnessCenterStereo.Common\FitnessCenterStereo.Common.csproj" />
+    <ProjectReference Include="..\FitnessCenterStereo.Model.Common\FitnessCenterStereo.Model.Common.csproj" />
+  </ItemGroup>
+
+</Project>
